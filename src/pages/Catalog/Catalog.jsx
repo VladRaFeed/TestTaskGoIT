@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { nanoid } from 'nanoid';
 import { useEffect, useState } from 'react';
 import css from './Catalog.module.css';
 
@@ -25,33 +26,6 @@ const brands = [
   'Chrysler',
   'Kia',
   'Land',
-];
-
-const testCar = [
-  {
-    id: 9582,
-    year: 2008,
-    make: 'Buick',
-    model: 'Enclave',
-    type: 'SUV',
-    img: 'https://res.cloudinary.com/ditdqzoio/image/upload/v1687252635/cars/buick_enclave.jpg',
-    description:
-      'The Buick Enclave is a stylish and spacious SUV known for its comfortable ride and luxurious features.',
-    fuelConsumption: '10.5',
-    engineSize: '3.6L V6',
-    accessories: ['Leather seats', 'Panoramic sunroof', 'Premium audio system'],
-    functionalities: [
-      'Power liftgate',
-      'Remote start',
-      'Blind-spot monitoring',
-    ],
-    rentalPrice: '$40',
-    rentalCompany: 'Luxury Car Rentals',
-    address: '123 Example Street, Kiev, Ukraine',
-    rentalConditions:
-      "Minimum age: 25\nValid driver's license\nSecurity deposit required",
-    mileage: 5858,
-  },
 ];
 
 const Catalog = () => {
@@ -100,9 +74,9 @@ const Catalog = () => {
           <button type="submit">Search</button>
         </form>
 
-        <ul>
+        <ul className={css.car_cards_section}>
           {carsData.map(car => (
-            <li key={car.id}>
+            <li key={nanoid()}>
               <div className={css.car_card_wrapper}>
                 <img
                   src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_1280.jpg"
