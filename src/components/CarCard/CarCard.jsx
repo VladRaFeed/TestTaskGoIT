@@ -1,5 +1,5 @@
 import { nanoid } from 'nanoid';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { openModal } from '../../redux/adverts/slice';
 import css from './CarCard.module.css';
 
