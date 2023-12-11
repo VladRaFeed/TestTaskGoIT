@@ -1,64 +1,21 @@
 .car_cards_section {
-  margin-left: 128px;
-  margin-right: 128px;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+  padding-bottom: 150px;
 }
 
-.car_card_wrapper {
-  width: 268px;
-  display: flex;
-  flex-direction: column;
-}
-
-.car_image {
-  width: 274px;
-  height: 268px;
-  border-radius: 14px;
-}
-
-.car_card_top_wrapper {
-  margin-top: 14px;
+.load_more_btn_wrapper {
+  margin-top: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.car_card_title {
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.car_card_title_wrapper {
-  color: #3470ff;
-}
-
-.car_card_price {
-  margin-right: 9px;
-  color: #000;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-}
-
-.car_card_info {
-  margin-top: 8px;
-  color: #12141780;
-  font-size: 12px;
-  line-height: 18px;
-}
-
-.car_crad_btn {
-  margin-top: 28px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
-  padding: 12px 0;
+.load_more_btn {
   border: none;
-  border-radius: 12px;
-  background-color: #3470ff;
+  background-color: transparent;
+  color: #3470ff;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
 }

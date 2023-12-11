@@ -1,0 +1,9 @@
+.car_cards_section_list {
+  margin-top: 50px;
+  margin-left: 128px;
+  margin-right: 128px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}

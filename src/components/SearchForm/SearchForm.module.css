@@ -1,0 +1,130 @@
+.car_search_form {
+  height: 74px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.car_search_form_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.car_search_form_label {
+  color: #8a8a89;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.car_search_form_dropdown {
+  width: 224px;
+  border: none;
+  background-color: #f7f7fb;
+  border-radius: 14px;
+  color: #121417;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+}
+
+.car_search_form_dropdown2 {
+  width: 125px;
+  border: none;
+  background-color: #f7f7fb;
+  border-radius: 14px;
+  color: #121417;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 18px;
+}
+
+select {
+  width: 268px;
+  padding: 5px;
+  border-radius: 5px;
+  background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+    no-repeat right #ddd;
+  -webkit-appearance: none;
+  background-position-x: 195px;
+}
+
+select.car_search_form_dropdown2 {
+  -webkit-appearance: none;
+  background-position-x: 95px;
+}
+
+.car_search_form_dropdown::-webkit-scrollbar {
+  width: 8px; /* Ширина скролл бару */
+  height: 130px;
+}
+
+.car_search_form_dropdown::-webkit-scrollbar-thumb {
+  background-color: #fff; /* Колір скролл бару */
+  border-radius: 10px; /* Радіус скролл бару */
+}
+
+.car_search_form_dropdown::-webkit-scrollbar-track {
+  background-color: #1214170d; /* Колір фону скролл бару */
+}
+
+.car_search_form_select_list_item {
+  color: #12141733;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.car_form_search_input {
+  width: 160px;
+  border-right-color: #8a8a89;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  background-color: #f7f7fb;
+  color: #121417;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 14px 0px 0px 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+}
+
+.car_form_search_input_right {
+  width: 160px;
+  border: none;
+  background-color: #f7f7fb;
+  color: #121417;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 0px 14px 14px 0px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 24px;
+}
+
+.car_form_search_btn {
+  margin-top: 25px;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  background-color: #3470ff;
+  border-radius: 12px;
+  padding: 14px 44px;
+  cursor: pointer;
+}

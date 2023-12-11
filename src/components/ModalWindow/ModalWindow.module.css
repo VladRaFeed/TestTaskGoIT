@@ -1,0 +1,116 @@
+.modal_overlay {
+  background: rgba(18, 20, 23, 0.5);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.modal {
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 40px;
+  width: 541px;
+  height: 752px;
+  background-color: #fff;
+  border-radius: 24px;
+}
+
+.modal_wrapper {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.modal_window_close_btn {
+  padding: 0;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.car_modal_img {
+  width: 461px;
+  height: 248px;
+  border-radius: 14px;
+}
+
+.car_modal_title {
+  margin-top: 14px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.car_modal_title_wrapper {
+  color: #3470ff;
+}
+
+.car_modal_info {
+  margin-top: 8px;
+  max-width: 280px;
+  color: #12141780;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.car_modal_info_list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.car_modal_info_title {
+  margin-top: 24px;
+  color: #121417;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.modal_window_subtitle_info_box {
+  padding: 7px 14px;
+  border-radius: 35px;
+  background: #f9f9f9;
+  font-size: 12px;
+  line-height: 18px; /* 150% */
+  letter-spacing: -0.24px;
+}
+
+.modal_window_subtitle_wrapper {
+  color: #3470ff;
+  font-weight: 600;
+}
+
+.car_modal_info_sub_list {
+  margin-top: 8px;
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.car_modal_btn {
+  width: 168px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 12px 0;
+  border: none;
+  border-radius: 12px;
+  background-color: #3470ff;
+  cursor: pointer;
+}
